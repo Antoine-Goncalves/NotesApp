@@ -30,9 +30,9 @@ yargs.command({
 
 yargs.command({
   command: "list",
-  describe: "List notes",
+  describe: "List your notes",
   handler: () => {
-    console.log("List the notes!");
+    console.log("Listing out all note!");
   }
 });
 
@@ -40,9 +40,9 @@ yargs.command({
 
 yargs.command({
   command: "read",
-  describe: "Read note",
+  describe: "Read a note",
   handler: () => {
-    console.log("Read the notes!");
+    console.log("Reading a note!");
   }
 });
 
