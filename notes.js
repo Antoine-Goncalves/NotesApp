@@ -1,5 +1,5 @@
-const getNotes = message => {
-  return "Your notes..." + message;
+const getNotes = () => {
+  return "Your notes...";
 };
 
 module.exports = getNotes;
