@@ -30,9 +30,19 @@ yargs.command({
 
 yargs.command({
   command: "list",
-  describe: "List note",
+  describe: "List notes",
   handler: () => {
     console.log("List the notes!");
+  }
+});
+
+// Create read command
+
+yargs.command({
+  command: "read",
+  describe: "Read note",
+  handler: () => {
+    console.log("Read the notes!");
   }
 });
 
