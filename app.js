@@ -1,3 +1,3 @@
 const fs = require("fs");
 
-fs.writeFileSync("notes.txt", "My name is Antoine");
+fs.appendFileSync("notes.txt", " Goncalves.");
