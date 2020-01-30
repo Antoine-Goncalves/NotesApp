@@ -1,8 +1,8 @@
-const validator = require("validator");
+import { isURL } from "validator";
 
-const getNotes = require("./notes.js");
+import getNotes from "./notes.js";
 
 const message = getNotes();
 console.log(message);
 
-console.log(validator.isURL("https://coucou.fr"));
+console.log(isURL("https://coucou.fr"));
