@@ -19,6 +19,7 @@
   "homepage": "https://github.com/Antoine-Goncalves/NotesApp#readme",
   "dependencies": {
     "chalk": "^3.0.0",
+    "nodemon": "^2.0.2",
     "validator": "^12.2.0"
   }
 }
