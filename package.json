@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Antoine-Goncalves/NotesApp/issues"
   },
-  "homepage": "https://github.com/Antoine-Goncalves/NotesApp#readme"
+  "homepage": "https://github.com/Antoine-Goncalves/NotesApp#readme",
+  "dependencies": {
+    "validator": "^12.2.0"
+  }
 }
