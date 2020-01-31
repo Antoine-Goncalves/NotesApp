@@ -16,8 +16,8 @@ yargs.command({
       describe: "Note title"
     }
   },
-  handler: () => {
-    console.log("Adding a new note!");
+  handler: argv => {
+    console.log("Adding a new note!", argv);
   }
 });
 
