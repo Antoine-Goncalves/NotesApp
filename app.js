@@ -19,7 +19,7 @@ yargs.command({
     }
   },
   handler: argv => {
-    console.log("Adding a new note!", argv);
+    console.log("Title: " + argv.title);
   }
 });
 
@@ -53,6 +53,4 @@ yargs.command({
   }
 });
 
-// add, remove, read, list
-
-// console.log(yargs.argv);
+yargs.parse();
