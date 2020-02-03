@@ -4,4 +4,4 @@ const book = {
 }
 
 const bookJSON = JSON.stringify(book)
-console.log(bookJSON.title)
+console.log(bookJSON)
