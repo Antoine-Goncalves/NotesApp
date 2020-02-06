@@ -1,3 +1,4 @@
+const fs = require("fs");
 const book = {
     title: "Hello World",
     author: "Antoine Goncalves"
